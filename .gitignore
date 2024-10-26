@@ -1,0 +1,78 @@
+# Crash log files
+crash.log
+
+# .NET Core/ASP.NET Core
+project.lock.json
+project.fragment.lock.json
+artifacts/
+## Ignore build outputs
+[Bb]in/
+[Oo]bj/
+# .NET-specific user files
+*.csproj.user
+*.appsettings.development.json
+
+# User-specific files
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Rider IDE
+.idea/
+.idea_modules/
+
+# Visual Studio Code
+.vscode/
+!.vscode/extensions.json
+
+# Rider IntelliJ
+.idea/
+*.sln.iml
+
+# Mono Auto Generated Files
+mono_crash.*
+
+# NuGet Packages
+*.nupkg
+*.snupkg
+packages/
+# Include if using NuGet in the project
+!packages/*/build/
+
+# Windows-related files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Build directories
+build/
+out/
+
+# Log and crash reports
+*.log
+*.dmp
+
+# Backup and temporary files
+*.bak
+*.swp
+*.tmp
+*.temp
+*.log
+
+# OS-specific files
+.DS_Store
+._*
+.Spotlight-V100
+.Trashes
+
+# Local history
+.history/
+.idea/
+# Coverage reports
+coverage/
+*.coverage
+*.coveragexml
+
