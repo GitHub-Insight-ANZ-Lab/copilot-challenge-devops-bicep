@@ -47,7 +47,7 @@ You can also use **Codespaces** to run the lab in the cloud:
 
 You can find more information on how to use Codespaces [here](https://docs.github.com/en/codespaces/getting-started/quickstart).
 
-<img width="601" alt="Open in a Codespace" src="../assets/Open in a Codespace.png">
+<img width="601" alt="Open in a Codespace" src="./assets/Open in a Codespace.png">
 
 ## What's next?
 
