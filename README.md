@@ -51,4 +51,4 @@ You can find more information on how to use Codespaces [here](https://docs.githu
 
 ## What's next?
 
-You're now ready to start the [core exercises](<./2. core exercises.md>)
+You're now ready to start the [core exercises](</.instructions/2. core exercises.md>)
