@@ -1,42 +1,54 @@
-# GitHub Copilot Workshop for DevOps Engineers
+# GitHub Copilot Challenge for DevOps Engineers
 
-In this fun workshop, you will learn how to use GitHub Copilot to help you work with Bicep files and Azure DevOps YAML Pipelines.
+Welcome to the GitHub Copilot Challenge!  
+The challenge is designed to help you learn how to use GitHub Copilot to work with Bicep files and Azure DevOps Pipelines.
 
-Estimated time to complete: `Approximately 120 minutes`
+**Estimated time to complete:** `120 minutes`
 
-Participants will be guided to install the GitHub Copilot VS Code extension, follow a CodeTour to learn how to interact with GitHub Copilot, and then use GitHub Copilot to update, document and create Bicep files as well as deploying Azure resources using Azure DevOps Pipelines. 
+## Lab Structure
 
+The challenge is split into these sections:
 
-## Instructions 
+| Step                                                                                | Description                                   |
+| ----------------------------------------------------------------------------------- | --------------------------------------------- |
+| [Core Exercises](</.instructions/1. core exercises.md>)                             | Get started with GitHub Copilot.              |
+| [Bicep Challenge](</.instructions/2. bicep challenge.md>)                           | Complete Bicep challenge exercises.           |
+| [Azure DevOps Pipeline Challenge](</.instructions/3. azure pipelines challenge.md>) | Complete Azure Pipelines challenge exercises. |
+| [Additional Resources](</.instructions/4. additional resources.md>)                 | Explore more resources after the workshop.    |
 
-The workshop is divided into the following sections:
+## Setup Instructions
 
-Step | Description
---- | ---
-[Setup](</.instructions/1. setup.md>) | Instructions for installing the GitHub Copilot VS Code extension and joining the GitHub Copilot trial.
-[Core Exercises](</.instructions/2. core exercises.md>) | Instructions for getting started with GitHub Copilot.
-[Bicep Challenge](</.instructions/3. bicep challenge.md>) | Bicep challenge exercises for participants to complete.
-[Github Actions Challenge](</.instructions/4. azure pipelines challenge.md>) | Azure Pipelines challenge exercises for participants to complete.
-[Additional Resources](</.instructions/4. additional resources.md>) | Additional resources for participants to explore after the workshop.
+To get started, follow the setup instructions at this link: [Setting up your Environment](https://github-insight-anz-lab.github.io/github-copilot-labs-list/getting-started/#-setting-up-your-environment). This guide will help you configure your IDE, GitHub Copilot, and other necessary prerequisites.
 
+**Access to Azure Subscription** - You will need an Azure subscription to complete the exercises. If you don't have an Azure subscription, you can create a [free account](https://azure.microsoft.com/en-us/free/). You must have `Contributor` access to the subscription to create resources.
 
-## Project Structure
+> **Important:** It is recommended to fork the repository to your GitHub account before starting the exercise. This will allow you to save your changes and track your progress.
 
-In this project you will find: 
+### Using Local Environment
 
-* a `main.bicep` file that contains a number of Azure resources that can be deployed to an Azure resource group.
-* a devcontainer that installs CodeTour and GitHub Copilot when the Codespace is created (If you want to use Codespaces)
-* a `.instructions` folder all the instructions for this workshop.
-* an `assets` folder containing images used in this workshop documentation.
-* a `sample_dotnet_app` folder that contains a sample .NET application that can be used in the workshop.
-* a `.tours` folder that includes the CodeTour file if you wish to use it.
+**Prerequisites**
 
+You'll also need the following tools for this exercise:
 
-## FAQ 
+1. [Azure CLI](https://docs.microsoft.com/en-us/cli/azure/install-azure-cli)
+1. [Git](https://git-scm.com/downloads)
+1. [Docker](https://docs.docker.com/get-docker/)
+1. [.NET 8 SDK](https://dotnet.microsoft.com/download)
+1. [Bicep extension for VS Code](https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-bicep)
+1. [Docker extension for VS Code](https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-docker)
 
-- **How do I get a GitHub Copilot license?**
-  - You can request a trial license from your GitHub Sales representative or via Copilot for Individuals or Business licenses.
-- **How do I get a GitHub Codespaces license?**
-    - Codespaces is included with GitHub Enterprise Cloud, GitHub Enterprise Server, and GitHub Free. You can check under your [billing settings page](https://github.com/settings/billing).
-- **I am having trouble activating GitHub Copilot after I load the plugin, what should I do?**
-    - This could be because you launched your Codespace before you activated GitHub Copilot or accepted the invitation to the trial org. Please try to reload your Codespace and try again.
+### GitHub Codespaces
+
+You can also use **Codespaces** to run the lab in the cloud:
+
+1. Fork this repository to your GitHub account.
+2. Click on the "Open in Codespaces" button at the top of the repository.
+3. The Copilot extension is already installed in the Codespace. You may need to sign in to your GitHub account to activate the extension.
+
+You can find more information on how to use Codespaces [here](https://docs.github.com/en/codespaces/getting-started/quickstart).
+
+<img width="601" alt="Open in a Codespace" src="./assets/Open in a Codespace.png">
+
+## What's next?
+
+You're now ready to start the [core exercises](</.instructions/1. core exercises.md>)
