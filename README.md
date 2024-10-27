@@ -11,9 +11,9 @@ The challenge is split into these sections:
 
 | Step                                                                                | Description                                   |
 | ----------------------------------------------------------------------------------- | --------------------------------------------- |
-| [Core Exercises](</.instructions/2. core exercises.md>)                             | Get started with GitHub Copilot.              |
-| [Bicep Challenge](</.instructions/3. bicep challenge.md>)                           | Complete Bicep challenge exercises.           |
-| [Azure DevOps Pipeline Challenge](</.instructions/4. azure pipelines challenge.md>) | Complete Azure Pipelines challenge exercises. |
+| [Core Exercises](</.instructions/1. core exercises.md>)                             | Get started with GitHub Copilot.              |
+| [Bicep Challenge](</.instructions/2. bicep challenge.md>)                           | Complete Bicep challenge exercises.           |
+| [Azure DevOps Pipeline Challenge](</.instructions/3. azure pipelines challenge.md>) | Complete Azure Pipelines challenge exercises. |
 | [Additional Resources](</.instructions/4. additional resources.md>)                 | Explore more resources after the workshop.    |
 
 ## Setup Instructions
@@ -51,4 +51,4 @@ You can find more information on how to use Codespaces [here](https://docs.githu
 
 ## What's next?
 
-You're now ready to start the [core exercises](</.instructions/2. core exercises.md>)
+You're now ready to start the [core exercises](</.instructions/1. core exercises.md>)
