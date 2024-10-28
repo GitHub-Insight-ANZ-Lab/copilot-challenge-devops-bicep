@@ -31,11 +31,12 @@ To get started, follow the setup instructions at this link: [Setting up your Env
 You'll also need the following tools for this exercise:
 
 1. [Azure CLI](https://docs.microsoft.com/en-us/cli/azure/install-azure-cli)
-1. [Git](https://git-scm.com/downloads)
-1. [Docker](https://docs.docker.com/get-docker/)
-1. [.NET 8 SDK](https://dotnet.microsoft.com/download)
-1. [Bicep extension for VS Code](https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-bicep)
-1. [Docker extension for VS Code](https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-docker)
+2. [Git](https://git-scm.com/downloads)
+3. [Docker](https://docs.docker.com/get-docker/)
+4. [.NET 8 SDK](https://dotnet.microsoft.com/download)
+5. [PowerShell](https://docs.microsoft.com/en-us/powershell/scripting/install/installing-powershell)
+6. [Bicep extension for VS Code](https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-bicep)
+7. [Docker extension for VS Code](https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-docker)
 
 ### GitHub Codespaces
 
